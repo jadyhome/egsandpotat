@@ -1,4 +1,4 @@
-# eggs and potatoes
+# 🍳 eggs and potatoes 🥔
 
 #### Jady Hom
 
