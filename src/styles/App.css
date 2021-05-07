@@ -1,0 +1,25 @@
+.homepage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 100vh;
+}
+
+.eg {
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background-color: #fada5e;
+  color: #fff;
+}
+
+.pota {
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background-color: #fff8dc;
+  color: #9f8170;
+}
