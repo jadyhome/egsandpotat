@@ -5,23 +5,11 @@ const HomePage = () => {
     <div className="homepage">
       <section className="eg">
         eggs
-        <div className="dropdown">
-          <select className="">
-            <option value="">🥚🥚🥚</option>
-            <option value="linkhere">option#1</option>
-            <option value="linkhere">option#2</option>
-          </select>
-        </div>
+        <div className="icons">recipe icons here</div>
       </section>
       <section className="pota">
         potatoes
-        <div className="dropdown">
-          <select className="">
-            <option value="">🥔🥔🥔</option>
-            <option value="linkhere">option#1</option>
-            <option value="linkhere">option#2</option>
-          </select>
-        </div>
+        <div className="icons">recipe icons here</div>
       </section>
     </div>
   );
