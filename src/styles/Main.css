@@ -1,0 +1,11 @@
+.landingpage {
+  height: 100vh;
+  background-color: #fada5e;
+}
+
+.oven {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #fff;
+}
