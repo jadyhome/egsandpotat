@@ -24,6 +24,24 @@
   color: #9f8170;
 }
 
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding-inline-start: 0;
+  justify-items: center;
+  align-content: center;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid #404040;
+  margin-bottom: 40px;
+  height: 150px;
+  width: 150px;
+}
+
+/** EGG PAGE && POTATO PAGE **/
+
 .eggpage, .potatopage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
