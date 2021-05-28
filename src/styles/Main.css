@@ -1,11 +1,12 @@
 .landingpage {
+  display: grid;
+  place-items: center;
   height: 100vh;
   background-color: #fada5e;
 }
 
 .oven {
-  display: flex;
-  justify-content: center;
-  align-self: center;
+  height: 450px;
+  width: 450px;
   background-color: #fff;
 }
