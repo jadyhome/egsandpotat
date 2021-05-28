@@ -1,19 +1,65 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Global.css";
 
 const EggPage = () => {
   return (
-    <div className="eggpage">
-      <section className="eggrecipe">
-        <div className="info">
-          <h1>RECIPE NAME</h1>
-          <h4>ingredients</h4>
-          <p>directions</p>
-          <p>info</p>
+    <div className="eggpg">
+      <section className="eg">
+        eggs
+        <div className="recipe-icons">
+          <ul className="icons">
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/eggrecipe" className="to-egg">
+                  icon
+                </Link>
+              }
+            </li>
+          </ul>
         </div>
+      <div className="backtoabout">
+        {
+          <Link to="/about" className="to-aboutpg">
+            back to about page
+          </Link>
+        }
+      </div>
       </section>
-      <section className="illus">ILLUSTRATION HERE</section>
     </div>
   );
 };

@@ -1,17 +1,63 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Global.css";
 
 const PotatoPage = () => {
   return (
-    <div className="potatopage">
-      <section className="illus">ILLUSTRATION HERE</section>
-      <section className="potatorecipe">
-        <div className="info">
-          <h1>RECIPE NAME</h1>
-          <h4>ingredients</h4>
-          <p>directions</p>
-          <p>info</p>
+    <div className="potatopg">
+      <section className="pota">
+        potatoes
+        <div className="recipe-icons">
+          <ul className="icons">
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+            <li>
+              {
+                <Link to="/potatorecipe" className="to-potato">
+                  icon
+                </Link>
+              }
+            </li>
+          </ul>
+        </div>
+        <div className="backtoabout">
+          {
+            <Link to="/about" className="to-aboutpg">
+              back to about page
+            </Link>
+          }
         </div>
       </section>
     </div>
