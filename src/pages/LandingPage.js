@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="landingpage">
       <div className="oven">
         {
-          <Link to="/home" className="to-homepg">
+          <Link to="/about" className="to-aboutpg">
             IMG HERE
           </Link>
         }
