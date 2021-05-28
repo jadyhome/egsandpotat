@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import LandingPage from "../pages/LandingPage";
-import HomePage from "../pages/HomePage";
+import AboutPage from "../pages/AboutPage";
 import EggPage from "../pages/EggPage";
 import PotatoPage from "../pages/PotatoPage";
+import EggRecipe from "../pages/EggRecipe";
+import PotatoRecipe from "../pages/PotatoRecipe";
 
 const Router = () => {
   const [pageLoading, setPageLoading] = useState(true);
@@ -19,9 +21,11 @@ const Router = () => {
       ) : (
         <Switch>
           <Route exact path="/" component={() => <LandingPage />} />
-          <Route path="/home" component={() => <HomePage />} />
-          <Route path="/eggrecipe" component={() => <EggPage />} />
-          <Route path="/potatorecipe" component={() => <PotatoPage />} />
+          <Route path="/about" component={() => <AboutPage />} />
+          <Route path="/egg" component={() => <EggPage />} />
+          <Route path="/potato" component={() => <PotatoPage />} />
+          <Route path="/eggrecipe" component={() => <EggRecipe />} />
+          <Route path="/potatorecipe" component={() => <PotatoRecipe />} />
         </Switch>
       )}
     </main>
