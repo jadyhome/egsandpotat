@@ -1,4 +1,13 @@
-.homepage {
+a:link{
+  text-decoration: none;
+}
+
+.tolandingpg {
+  font-size: 18px;
+}
+
+.eggpg,
+.potatopg {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   height: 100vh;
@@ -40,9 +49,49 @@ li {
   width: 150px;
 }
 
-/** EGG PAGE && POTATO PAGE **/
+/** ABOUT PAGE **/
 
-.eggpage, .potatopage {
+.aboutpage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 100vh;
+}
+
+.about-divide {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.about-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.egg-icon {
+  background-color: #fada5e;
+  color: #fff;
+}
+
+.potato-icon {
+  background-color: #fff8dc;
+  color: #9f8170;
+}
+
+.backtoabout {
+  font-size: 18px;
+}
+
+/** ABOUT PAGE **/
+
+/** EGG RECIPE && POTATO RECIPE **/
+
+.eggpage,
+.potatopage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   height: 100vh;
@@ -57,3 +106,13 @@ li {
   background-color: #fff8dc;
   color: #796254;
 }
+
+.recipe-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+/** EGG RECIPE && POTATO RECIPE **/
