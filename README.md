@@ -1,6 +1,6 @@
 # 🍳 eggs and potatoes 🥔
 
-#### Jady Hom
+#### by Jady Hom
 
 [Github](https://github.com/jadyhome) | [LinkedIn](www.linkedin.com/in/jadyhom)
 
@@ -16,8 +16,10 @@
 
 ### Technologies Used
 
-- HTML / CSS / Javascript
+- HTML5 + CSS3
+- JavaScript
 - React
+- Figma
 
 ---
 
@@ -30,24 +32,24 @@
 
 ### Wireframe
 
-<!-- Initial Mockup/Wireframe
-![Initial Mockup]() -->
+Initial Mockup/Wireframe \
+![Initial Mockup - eggs & potatoes ](assets/eggs&potatoes.jpg)
 
 ---
 
-### Screenshots
+<!-- ### Screenshots
 
-<!-- Final Mockup/Wireframe -->
+Final Mockup/Wireframe
 
-<!-- Home Page
-![Home Page]() -->
+Home Page
+![Home Page]()
 
----
+--- -->
 
 ### Future Updates
 
-- [x]
-- [ ]
+<!-- - [x]
+- [ ] -->
 
 ---
 
