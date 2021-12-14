@@ -1,4 +1,4 @@
-a:link{
+a:link {
   text-decoration: none;
 }
 
@@ -13,6 +13,19 @@ a:link{
   height: 100vh;
 }
 
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  margin: 50px;
+  justify-items: center;
+}
+.recipe-name {
+  font-size: 20px;
+  margin-block-start: 5px;
+  margin-block-end: 10px;
+}
+
 .eg {
   font-size: 60px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -21,6 +34,11 @@ a:link{
   text-align: center;
   background-color: #fada5e;
   color: #fff;
+}
+.egg-img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
 }
 
 .pota {
@@ -31,6 +49,11 @@ a:link{
   text-align: center;
   background-color: #fff8dc;
   color: #9f8170;
+}
+.potato-img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
 }
 
 .icons {
