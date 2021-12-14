@@ -1,56 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { PotatoPageData } from "../potatopg-data";
 
 const PotatoPage = () => {
+  const [potatoRecipes, setPotatoRecipes] = useState([]);
+
+  useEffect(() => {
+    fetchPotatoRecipeData();
+  }, []);
+
+  const fetchPotatoRecipeData = () => {
+    setPotatoRecipes(PotatoPageData);
+  };
+
   return (
     <div className="potatopg">
       <section className="pota">
         potatoes
-        <div className="recipe-icons">
-          <ul className="icons">
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-            <li>
-              {
-                <Link to="/potatorecipe" className="to-potato">
-                  icon
-                </Link>
-              }
-            </li>
-          </ul>
+        <div className="recipe-container">
+          {potatoRecipes.map((potato, index) => {
+            return (
+              <div key={index} className="recipe-icons">
+                <div className="recipe-img">{potato.image}</div>
+                <p className="recipe-name">{potato.recipe_name}</p>
+              </div>
+            );
+          })}
         </div>
         <div className="backtoabout">
           {
