@@ -11,7 +11,7 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 1",
+    recipe_name: "potato chowder soup",
   },
   {
     image: (
@@ -23,7 +23,7 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 2",
+    recipe_name: "garlic roasted potatoes",
   },
   {
     image: (
@@ -35,7 +35,7 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 3",
+    recipe_name: "au gratin cheese potatoes",
   },
   {
     image: (
@@ -47,7 +47,7 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 4",
+    recipe_name: "seasoned fries",
   },
   {
     image: (
@@ -59,7 +59,7 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 5",
+    recipe_name: "the baked potato",
   },
   {
     image: (
@@ -71,6 +71,6 @@ export const PotatoPageData = [
         />
       </Link>
     ),
-    recipe_name: "potato recipe 6",
+    recipe_name: "mashed potatoes",
   },
 ];
