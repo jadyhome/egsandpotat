@@ -11,7 +11,7 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 1",
+    recipe_name: "bacon and egg cups",
   },
   {
     image: (
@@ -23,7 +23,7 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 2",
+    recipe_name: "egg-in-a-hole",
   },
   {
     image: (
@@ -35,7 +35,7 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 3",
+    recipe_name: "korean steamed egg (계란찜)",
   },
   {
     image: (
@@ -47,7 +47,7 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 4",
+    recipe_name: "eggs benedict",
   },
   {
     image: (
@@ -59,7 +59,7 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 5",
+    recipe_name: "egg salad sandwiches",
   },
   {
     image: (
@@ -71,6 +71,6 @@ export const EggPageData = [
         />
       </Link>
     ),
-    recipe_name: "egg recipe 6",
+    recipe_name: "scrambled eggs with ham",
   },
 ];
